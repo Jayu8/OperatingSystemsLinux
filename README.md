@@ -1,1 +1,1 @@
-Diffrent concepts in Operating systems are tried and tested.
+Diffrent concepts in Operating systems are tried and tested in Ubuntu OS.
