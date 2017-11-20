@@ -1,0 +1,27 @@
+
+
+Multithreaded programming is parallel, but parallel programming is not necessarily multithreaded.
+
+Unless the multithreading occurs on a single core, in which case it is only concurrent.
+
+
+
+To take advantage of multiple cores from our software, ultimately threads have to be used. 
+Because of this fact, some developers fall in the trap of equating multithreading to parallelism. 
+That is not accurate...You can have multithreading on a single core machine, 
+but you can only have parallelism on a multi core machine.
+
+
+parallel programming by MapReduce where each task can run on separate process on different systems.
+
+http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx
+
+Summary:
+
+Multithreading in single core possible (parallel illusion) (called concurrency)
+Multithreading in multicore possible (truly parallel)(can also do parallel illusion)
+Parallel Programming (truly parallel) (but at end must communicate to finish the task)
+Asynchronous: Do some task in background , give a response only when some condition is achieved (interrupts)
+
+
+GUI : async and threading
